@@ -406,6 +406,7 @@
 .header__search-input-wrap {
     flex: 1;
     height: 100%;
+    position: relative;
 }
 
 .header__search-input {
@@ -523,4 +524,13 @@
     display: inline-block;
 }
 
-.auth-form
+/* Search history */
+.header__search-history {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: calc(100% - 16px);
+    background-color: var(--white-color);
+    border-radius: 3px;
+    box-shadow: 0 0 3px #666;
+}
