@@ -1116,6 +1116,17 @@ i.home-product-item__like-icon-fill {
     padding: 2px;
 }
 
+.home-product-item__discount::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    border-width: 0 20px 4px;
+    border-style: solid;
+    color: rgba(255, 216, 64, 0.94);
+    border-color: transparent currentColor transparent currentColor;
+}
+
 .home-product-item__discount-percent {
     font-size: 1.2rem;
     font-weight: 600;
