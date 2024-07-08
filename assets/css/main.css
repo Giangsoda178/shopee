@@ -1188,5 +1188,5 @@ i.home-product-item__like-icon-fill {
 
 /* Footer */
 .footer {
-    
+    border-top: 4px solid var(--primary-color);
 }
